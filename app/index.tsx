@@ -41,7 +41,7 @@ export default function Index() {
             contentContainerStyle={styles.modalContent}
           >
             <Text style={styles.modalText}>
-              This is a window that pops up on button press!
+              You press the button my G!
             </Text>
             <Button mode="contained" onPress={hideModal} style={styles.modalButton}>
               Close
@@ -84,13 +84,13 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 10,
     flex: 1,
-    backgroundColor: "#ADD8E6",
+    backgroundColor: "#C9B332",
   },
   modalContent: {
     backgroundColor: "white",
     padding: 20,
     marginHorizontal: 20,
-    borderRadius: 8,
+    borderRadius: 12,
     alignItems: "center",
     justifyContent: "center",
   },
